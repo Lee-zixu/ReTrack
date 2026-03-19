@@ -302,8 +302,7 @@ We welcome all forms of contributions! If you have any questions, ideas, or find
   </a>
 
   <br><br>
-
-  <a href="https://github.com/Lee-zixu/ReTrack">
-    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&pause=1000&color=00D9FF&center=true&vCenter=true&width=500&lines=⭐+Thank+you+for+visiting+ReTrack!+⭐;🚀+Looking+forward+to+your+attention!;✨+Don't+forget+to+leave+a+star!" alt="Typing SVG">
+<a href="https://github.com/Lee-zixu/ReTrack">
+    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&pause=1000&color=00D9FF&center=true&vCenter=true&width=500&lines=Thank+you+for+visiting+ReTrack!;Looking+forward+to+your+attention!;Please+leave+a+star!" alt="Typing SVG">
   </a>
 </div>
