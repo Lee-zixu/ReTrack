@@ -1,6 +1,6 @@
 <a id="top"></a>
 <div align="center">
- <img src="./assets/logo.png" width="700"> 
+ <img src="assets/logo.png" width="700"> 
   <h1>🎬 (AAAI 2026) ReTrack: Evidence-Driven Dual-Stream Directional Anchor Calibration Network for Composed Video Retrieval</h1>
   
   <p>
