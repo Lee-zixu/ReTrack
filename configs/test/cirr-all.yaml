@@ -1,0 +1,17 @@
+cirr-all:
+  dataname: cirr-all
+  _target_: src.data.cirr.CIRRTestDataModule
+  split: val
+
+  test:
+    _target_: src.test.${model.basemodel}.cirr_all.CIRR_ALL
+
+  batch_size: ${machine.batch_size}
+  num_workers: ${machine.num_workers}
+
+  annotation: /root/autodl-tmp/cirr_data/CIRR/ #captions/cap.rc2.val.json
+  img_dirs: /root/autodl-tmp/cirr_data/CIRR/dev
+  emb_dirs: ${paths.datasets_dir}/CIRR/${model.basemodel}-embs-large/dev
+
+  image_size: ${model.ckpt.image_size}
+

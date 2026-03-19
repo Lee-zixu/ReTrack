@@ -1,0 +1,30 @@
+dataname: fashioniq-${data.category}
+_target_: src.data.fashioniq.FashionIQDataModule
+
+# Paths
+dataset_dir: ${paths.datasets_dir}/fashion-iq
+vid_frames: 1
+batch_size: ${machine.batch_size}
+num_workers: ${machine.num_workers}
+
+annotation: /root/autodl-tmp/data/CIR_data/fashion_iq_data/
+  # train: /root/autodl-tmp/data/CIR_data/captions/cap.${data.category}.train.json
+  # val: /root/autodl-tmp/data/CIR_data/captions/cap.${data.category}.val.json
+  # train_cap: /root/autodl-tmp/data/CIR_data/captions/image_captions_${data.category}_train.json
+  # val_cap: /root/autodl-tmp/data/CIR_data/captions/image_captions_${data.category}_val.json
+
+targets:
+  train: /root/autodl-tmp/data/CIR_data/image_splits/split.${data.category}.train.json
+  val: /root/autodl-tmp/data/CIR_data/image_splits/split.${data.category}.val.json
+
+img_dirs:
+  train: /root/autodl-tmp/data/CIR_data/images/
+  val: /root/autodl-tmp/data/CIR_data/images/
+
+emb_dirs:
+  train: ${data.dataset_dir}/${model.basemodel}-embs-large/
+  val: ${data.dataset_dir}/${model.basemodel}-embs-large/
+
+image_size: ${model.ckpt.image_size}
+
+category: ???

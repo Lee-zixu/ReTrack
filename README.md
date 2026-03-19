@@ -264,7 +264,6 @@ For any questions, issues, or feedback, please open an [issue](https://github.co
 
 If you find our work or this code useful in your research, please consider leaving a **Star**⭐️ or **Citing**📝 our paper 🥰. Your support is our greatest motivation!
 
-[⬆ Back to top](#top)
 
 ```bibtex
 @inproceedings{ReTrack,

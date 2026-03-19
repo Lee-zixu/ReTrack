@@ -1,0 +1,5 @@
+name: webvid-covr
+
+path: ./ckpt
+
+image_size: 364

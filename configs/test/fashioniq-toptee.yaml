@@ -1,0 +1,20 @@
+fashioniq-toptee:
+  dataname: fashioniq-toptee
+  _target_: src.data.fashioniq.FashionIQTestDataModule
+
+  batch_size: ${machine.batch_size}
+  num_workers: ${machine.num_workers}
+
+  annotation:  /root/autodl-tmp/data/CIR_data/fashion_iq_data/ 
+  annotation_cap:  /root/autodl-tmp/data/CIR_data/fashion_iq_data/captions/image_captions_toptee_val.json
+  targets: /root/autodl-tmp/data/CIR_data/fashion_iq_data/image_splits/split.toptee.val.json
+
+  img_dirs: /root/autodl-tmp/data/CIR_data/fashion_iq_data/images/
+  emb_dirs: ${paths.datasets_dir}/fashion-iq/${model.basemodel}-embs-large/
+
+  image_size: ${model.ckpt.image_size}
+  category: toptee
+
+  test:
+    _target_: src.test.${model.basemodel}.fashioniq.TestFashionIQ_Ori
+    category: toptee

@@ -1,0 +1,6 @@
+_target_: src.tools.scheduler.StepSchedule
+
+init_lr: ${model.optimizer.lr}
+decay_rate: 0.1
+decay_epoch: 5
+min_lr: 0

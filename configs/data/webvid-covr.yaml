@@ -1,0 +1,30 @@
+dataname: webvid-covr
+_target_: src.data.webvid_covr.WebVidCoVRDataModule
+
+image_size: ${model.ckpt.image_size}
+iterate: "pth2"
+vid_query_method: middle # change to sample if vid_frames > 1
+vid_frames: 1
+emb_pool: query
+n_embs: 15
+si_tc_weight: ${model.loss_terms.si_tc_weight}
+
+batch_size: ${machine.batch_size}
+num_workers: ${machine.num_workers}
+
+annotation:
+  train: /root/autodl-tmp/data/CVR_data/annotation/webvid-covr/webvid2m-covr_train.csv
+  val: /root/autodl-tmp/data/CVR_data/annotation/webvid-covr/webvid8m-covr_val.csv
+
+vid_dirs:
+  train: ${paths.datasets_dir}/WebVid/2M/train
+  val: ${paths.datasets_dir}/WebVid/8M/train
+
+
+emb_dirs:
+  train: ${paths.datasets_dir}/WebVid/2M/${model.basemodel}-vid-embs-${model.model.vit}-all
+  val: ${paths.datasets_dir}/WebVid/8M/${model.basemodel}-vid-embs-${model.model.vit}-all
+
+mm_emb_dirs:
+  train: ${paths.datasets_dir}/WebVid/2M/${model.basemodel}-vid-embs-${model.model.vit}-all-multimodel
+  val: ${paths.datasets_dir}/WebVid/8M/${model.basemodel}-vid-embs-${model.model.vit}-all-multimodel

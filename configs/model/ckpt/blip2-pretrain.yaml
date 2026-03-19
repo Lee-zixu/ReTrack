@@ -1,0 +1,5 @@
+name: blip2-pretrain
+
+path: "https://storage.googleapis.com/sfr-vision-language-research/LAVIS/models/BLIP2/blip2_pretrained.pth"
+
+image_size: 224

@@ -1,0 +1,22 @@
+dataname: cirr
+_target_: src.data.cirr.CIRRDataModule
+
+# Paths
+dataset_dir:  /root/autodl-tmp/data/CIR_data/cirr_data/CIRR/
+vid_query_method: middle
+vid_frames: 1
+
+batch_size: ${machine.batch_size}
+num_workers: ${machine.num_workers}
+
+annotation:  /root/autodl-tmp/data/CIR_data/cirr_data/CIRR/
+
+img_dirs:
+  train: /root/autodl-tmp/data/CIR_data/cirr_data/CIRR/train/
+  val: /root/autodl-tmp/data/CIR_data/cirr_data/CIRR/dev/
+
+emb_dirs:
+  train: ${data.dataset_dir}/${model.basemodel}-embs-large/train
+  val: ${data.dataset_dir}/${model.basemodel}-embs-large/dev
+
+image_size: ${model.ckpt.image_size}
