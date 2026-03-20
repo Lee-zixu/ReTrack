@@ -6,7 +6,7 @@
   <p>
     <a href="https://aaai.org/Conferences/AAAI-26/"><img src="https://img.shields.io/badge/AAAI-2026-blue.svg?style=flat-square" alt="AAAI 2026"></a>
     <a href="https://arxiv.org/abs/coming soon"><img alt='arXiv' src="https://img.shields.io/badge/arXiv-Coming.Soon-b31b1b.svg?style=flat-square"></a>
-    <a href="https://ojs.aaai.org/index.php/AAAI/article/view/39507"><img alt='Paper' src="https://img.shields.io/badge/Paper-green.svg?style=flat-square"></a>
+    <a href="https://ojs.aaai.org/index.php/AAAI/article/view/39507"><img alt='Paper' src="https://img.shields.io/badge/Paper-AAAI.39507-green.svg?style=flat-square"></a>
     <a href="https://lee-zixu.github.io/ReTrack.github.io/"><img alt='page' src="https://img.shields.io/badge/Website-orange?style=flat-square"></a>
     <a href="https://lee-zixu.github.io"><img src="https://img.shields.io/badge/Author_Page-blue.svg?style=flat-square" alt="Author Page"></a>
     <a href="https://pytorch.org/get-started/locally/"><img alt="PyTorch" src="https://img.shields.io/badge/PyTorch-EE4C2C?style=flat-square&logo=pytorch&logoColor=white"></a>
@@ -259,6 +259,63 @@ This codebase is built upon several great open-source projects. We thank the aut
 For any questions, issues, or feedback, please open an [issue](https://github.com/Lee-zixu/ReTrack/issues) on GitHub or reach out to me at lizixu.cs@gmail.com.
 
 [⬆ Back to top](#top)
+
+
+## 🔗 Related Projects
+
+*Ecosystem & Other Works from our Team*
+
+<table style="width:100%; border:none; text-align:center; background-color:transparent;">
+  <tr style="border:none;">
+    <td style="width:30%; border:none; vertical-align:top; padding-top:30px;">
+      <img src="/assets/logos/habit-logo.png" alt="HABIT" style="height:65px; width:auto; border-radius:8px; margin-bottom:8px;"><br>
+      <b>HABIT (AAAI'26)</b><br>
+      <span style="font-size: 0.9em;">
+        <a href="https://lee-zixu.github.io/HABIT.github.io/" target="_blank">Web</a> | 
+        <a href="https://github.com/Lee-zixu/HABIT" target="_blank">Code</a> | 
+        <a href="https://ojs.aaai.org/index.php/AAAI/article/view/37608" target="_blank">Paper</a>
+      </span>
+    </td>
+    <td style="width:30%; border:none; vertical-align:top; padding-top:30px;">
+      <img src="/assets/logos/intent-logo.png" alt="INTENT" style="height:65px; width:auto; border-radius:8px; margin-bottom:8px;"><br>
+      <b>INTENT (AAAI'26)</b><br>
+      <span style="font-size: 0.9em;">
+        <a href="https://zivchen-ty.github.io/INTENT.github.io/" target="_blank">Web</a> | 
+        <a href="https://github.com/ZivChen-Ty/INTENT" target="_blank">Code</a> | 
+        <a href="https://ojs.aaai.org/index.php/AAAI/article/view/39181" target="_blank">Paper</a>
+      </span>
+    </td>  
+    <td style="width:30%; border:none; vertical-align:top; padding-top:30px;">
+      <img src="/assets/logos/hud-logo.png" alt="HUD" style="height:65px; width:auto; border-radius:8px; margin-bottom:8px;"><br>
+      <b>HUD (ACM MM'25)</b><br>
+      <span style="font-size: 0.9em;">
+        <a href="https://zivchen-ty.github.io/HUD.github.io/" target="_blank">Web</a> | 
+        <a href="https://github.com/ZivChen-Ty/HUD" target="_blank">Code</a> | 
+        <a href="https://dl.acm.org/doi/10.1145/3746027.3755445" target="_blank">Paper</a>
+      </span>
+    </td>
+    <!-- </tr>
+  <tr style="border:none;"> -->
+    <td style="width:30%; border:none; vertical-align:top; padding-top:30px;">
+      <img src="/assets/logos/offset-logo.png" alt="OFFSET" style="height:65px; width:auto; border-radius:8px; margin-bottom:8px;"><br>
+      <b>OFFSET (ACM MM'25)</b><br>
+      <span style="font-size: 0.9em;">
+        <a href="https://zivchen-ty.github.io/OFFSET.github.io/" target="_blank">Web</a> | 
+        <a href="https://github.com/ZivChen-Ty/OFFSET" target="_blank">Code</a> | 
+        <a href="https://dl.acm.org/doi/10.1145/3746027.3755366" target="_blank">Paper</a>
+      </span>
+    </td>
+    <td style="width:30%; border:none; vertical-align:top; padding-top:30px;">
+      <img src="/assets/logos/encoder-logo.png" alt="ENCODER" style="height:65px; width:auto; border-radius:8px; margin-bottom:8px;"><br>
+      <b>ENCODER (AAAI'25)</b><br>
+      <span style="font-size: 0.9em;">
+        <a href="https://sdu-l.github.io/ENCODER.github.io/" target="_blank">Web</a> | 
+        <a href="https://github.com/Lee-zixu/ENCODER" target="_blank">Code</a> | 
+        <a href="https://ojs.aaai.org/index.php/AAAI/article/view/32541" target="_blank">Paper</a>
+      </span>
+    </td>
+  </tr>
+</table>
 
 ## 📝⭐️ Citation
 
