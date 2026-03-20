@@ -6,8 +6,8 @@
   <p>
     <a href="https://aaai.org/Conferences/AAAI-26/"><img src="https://img.shields.io/badge/AAAI-2026-blue.svg?style=flat-square" alt="AAAI 2026"></a>
     <a href="https://arxiv.org/abs/coming soon"><img alt='arXiv' src="https://img.shields.io/badge/arXiv-Coming.Soon-b31b1b.svg?style=flat-square"></a>
-    <a href="coming soon"><img alt='Paper' src="https://img.shields.io/badge/Paper-Coming.Soon-green.svg?style=flat-square"></a>
-    <a href=""><img alt='page' src="https://img.shields.io/badge/Website-orange?style=flat-square"></a>
+    <a href="https://ojs.aaai.org/index.php/AAAI/article/view/39507"><img alt='Paper' src="https://img.shields.io/badge/Paper-green.svg?style=flat-square"></a>
+    <a href="https://lee-zixu.github.io/ReTrack.github.io/"><img alt='page' src="https://img.shields.io/badge/Website-orange?style=flat-square"></a>
     <a href="https://lee-zixu.github.io"><img src="https://img.shields.io/badge/Author_Page-blue.svg?style=flat-square" alt="Author Page"></a>
     <a href="https://pytorch.org/get-started/locally/"><img alt="PyTorch" src="https://img.shields.io/badge/PyTorch-EE4C2C?style=flat-square&logo=pytorch&logoColor=white"></a>
     <img src="https://img.shields.io/badge/python-≥3.8-blue?style=flat-square" alt="Python">
