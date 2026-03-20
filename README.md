@@ -298,7 +298,7 @@ For any questions, issues, or feedback, please open an [issue](https://github.co
   <tr style="border:none;"> -->
     <td style="width:30%; border:none; vertical-align:top; padding-top:30px;">
       <img src="/assets/logos/offset-logo.png" alt="OFFSET" style="height:65px; width:auto; border-radius:8px; margin-bottom:8px;"><br>
-      <b>OFFSET (ACM MM'25) <br></b><br>
+      <b>OFFSET <br>(ACM MM'25)</b><br>
       <span style="font-size: 0.9em;">
         <a href="https://zivchen-ty.github.io/OFFSET.github.io/" target="_blank">Web</a> | 
         <a href="https://github.com/ZivChen-Ty/OFFSET" target="_blank">Code</a> | 
