@@ -28,7 +28,7 @@
 [⬆ Back to top](#top)
 
 ## 📢 News
-* **[2026-03-20]** 🚀 Official paper is released at [AAAI 2026](https://ojs.aaai.org/index.php/AAAI/article/view/39507).
+- **[2026-03-20]** 🚀 Official paper is released at [AAAI 2026](https://ojs.aaai.org/index.php/AAAI/article/view/39507).
 - **[2026-03-19]** 🚀 Released all training and evaluation codes for ReTrack.
 - **[2025-11-08]** 🔥 Our paper *"ReTrack: Evidence-Driven Dual-Stream Directional Anchor Calibration Network for Composed Video Retrieval"* has been accepted by **AAAI 2026**!
 
