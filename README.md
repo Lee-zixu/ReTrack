@@ -2,7 +2,20 @@
 <div align="center">
  <img src="assets/logo-.png" width="700"> 
   <h1>🎬 (AAAI 2026) ReTrack: Evidence-Driven Dual-Stream Directional Anchor Calibration Network for Composed Video Retrieval</h1>
-  
+    <div>
+  <a target="_blank" href="https://lee-zixu.github.io/">Zixu&#160;Li</a><sup>1</sup>,
+  <a target="_blank" href="https://faculty.sdu.edu.cn/huyupeng1/zh_CN/index.htm">Yupeng&#160;Hu</a><sup>1&#9993</sup>,
+  <a target="_blank" href="https://zivchen-ty.github.io/">Zhiwei&#160;Chen</a><sup>1</sup>,
+  <a target="_blank" href="https://windlikeo.github.io/HQL.github.io/">Qinlei&#160;Huang</a><sup>1</sup>,
+  Guozhi&#160;Qiu<sup>1</sup>,
+  <a target="_blank" href="https://zhihfu.github.io/">Zhiheng&#160;Fu</a><sup>1</sup>,
+  <a target="_blank" href="https://mengliu1991.github.io">Meng&#160;Liu</a><sup>2</sup>
+  </div>
+  <sup>1</sup>School of Software, Shandong University &#160&#160&#160</span>  <br>
+  <sup>2</sup>School of Computer Science and Technology, Shandong Jianzhu University&#160&#160&#160</span>
+  <br />
+  <sup>&#9993&#160;</sup>Corresponding author&#160;&#160;</span>
+  <br/>
   <p>
     <a href="https://aaai.org/Conferences/AAAI-26/"><img src="https://img.shields.io/badge/AAAI-2026-blue.svg?style=flat-square" alt="AAAI 2026"></a>
     <a href="https://arxiv.org/abs/coming soon"><img alt='arXiv' src="https://img.shields.io/badge/arXiv-Coming.Soon-b31b1b.svg?style=flat-square"></a>
