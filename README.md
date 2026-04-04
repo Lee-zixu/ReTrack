@@ -375,7 +375,9 @@ We welcome all forms of contributions! If you have any questions, ideas, or find
 
 [⬆ Back to top](#top)
 
+## 📄 License
 
+This project is released under the terms of the [LICENSE](./LICENSE) file included in this repository.
 
 <div align="center">
   <img src="https://user-images.githubusercontent.com/74038190/212284100-561aa473-3905-4a80-b561-0d28506553ee.gif" width="500" alt="ReTrack Demo">
